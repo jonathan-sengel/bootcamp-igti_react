@@ -10,7 +10,7 @@
 
 ### Home Page
 
-#### :arrow_right: Dashboard:
+#### :one: Dashboard:
 
 - Global Confirmed Cases
 - Global Deaths Cases
@@ -18,7 +18,7 @@
 - Distribution of cases in a pie chart
 - Graph of the 10 countries with the most cases of death
 
-### Country Page
+### :two: Country Page
 
 - Time interval filter
   - By country
