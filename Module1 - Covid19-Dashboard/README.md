@@ -6,6 +6,9 @@
 
 > This application was proposed in module 1 of the bootcamp in order to put into practice advanced Javascript knowledge that was acquired during the last week :clock530:; in addition, some js libraries were used for training. :arrow_upper_right:
 
+<img src="https://github.com/jonathan-sengel/bootcamp-igti_react/blob/master/media/print1.jpg" width=800 alt="home page image">
+<img src="https://github.com/jonathan-sengel/bootcamp-igti_react/blob/master/media/print2.jpg" width=800 alt="country page image">
+
 ## Main Features :point_down:
 
 ### :one: Home Page
