@@ -2,6 +2,10 @@
 
 > ### Project status: working, but still in the process of improvement :heavy_check_mark: / :warning:
 
+## Deployed on Vercel: :dash:
+
+> https://covid19-dashboard-dun.vercel.app/
+
 ## Here I bring you the first challenge held at the IGTI Bootcamp React :+1:
 
 > This application was proposed in module 1 of the bootcamp in order to put into practice advanced Javascript knowledge that was acquired during the last week :clock530:; in addition, some js libraries were used for training. :arrow_upper_right:
