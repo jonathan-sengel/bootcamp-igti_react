@@ -1,5 +1,15 @@
+let headers = new Headers();
+headers.append('Content-Type', 'application/json');
+headers.append('Access-Control-Allow-Origin', '*');
+const params = {
+  method: 'GET',
+  mode: 'no-cors',
+  headers: headers,
+};
+
 const covidApi = axios.create({
-  baseURL: 'https://api.covid19api.com/'
+  baseURL: 'https://api.covid19api.com/',
+  headers: params,
 });
 
 async function getTotalData() {
@@ -7,7 +17,10 @@ async function getTotalData() {
 
   const global = response.data.Global;
   const countries = getCountries(response.data.Countries);
-  const countriesNames = { names: _.map(response.data.Countries, 'Country'), slug: _.map(response.data.Countries, 'Slug') };
+  const countriesNames = {
+    names: _.map(response.data.Countries, 'Country'),
+    slug: _.map(response.data.Countries, 'Slug'),
+  };
   return { global, countries, countriesNames };
 }
 
@@ -29,11 +42,13 @@ async function getFilteredData(inicialDate, finalDate, country, filter) {
     if (i > 0) {
       let diff = el[filter] - arr[i - 1][filter];
       let date = dateFns.addHours(el.Date, 3);
-      data.push({ [filter]: diff, Date: dateFns.format(date, "DD-MM-YYYY") });
+      data.push({ [filter]: diff, Date: dateFns.format(date, 'DD-MM-YYYY') });
     }
   });
   let tmp = parseInt(_.meanBy(data, filter));
-  _.forEach(data, el => { media.push(tmp) });
+  _.forEach(data, el => {
+    media.push(tmp);
+  });
 
-  return ({ filtered: data, last: _.last(response.data), media: media });
+  return { filtered: data, last: _.last(response.data), media: media };
 }
