@@ -7,11 +7,10 @@ const BASE_URL =
 
 const axiosInstance = axios.create({
   baseURL: BASE_URL,
-  timeout: 5000,
+  timeout: 15000,
 });
 
 export default async function getData(url) {
   const { data } = await axiosInstance.get(url);
-  console.log(BASE_URL);
   return data;
 }
