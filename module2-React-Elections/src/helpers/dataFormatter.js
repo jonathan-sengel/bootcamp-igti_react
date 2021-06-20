@@ -6,6 +6,6 @@ export function helperFormatNumber(value) {
 }
 
 export function helperFormatPercentage(value) {
-  const percentage = value.toFixed(2) + '%';
+  const percentage = value.toFixed(2).replace('.', ',') + '%';
   return percentage;
 }

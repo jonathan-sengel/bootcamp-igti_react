@@ -11,7 +11,6 @@ export default function ElectionCandidateCard({ children, selectedCity }) {
   let progressClass = elected ? 'progress-elected' : 'progress-not-elected';
   let color = elected ? '$green600' : '$red600';
 
-  console.log(`status text-xs uppercase bg-${color}`);
   return (
     <li className="flex items-center w-full p-2 gap-2">
       <img

@@ -86,7 +86,7 @@ export default function ElectionsPage() {
           selectedCity={selectedCity}
           candidateQuantity={elections.length}
         />
-        <ul className="sm:w-3/4 w-full">
+        <ul className="sm:w-3/4 w-full pb-5">
           {elections.map(item => {
             return (
               <ElectionCandidateCard key={item.id} selectedCity={selectedCity}>
