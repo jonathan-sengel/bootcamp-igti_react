@@ -5,7 +5,7 @@ const axiosInstance = axios.create({
   timeout: 5000,
 });
 
-export async function getData(url) {
+export default async function getData(url) {
   const { data } = await axiosInstance.get(url);
   return data;
 }

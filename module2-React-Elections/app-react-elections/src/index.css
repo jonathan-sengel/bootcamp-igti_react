@@ -12,9 +12,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #343a40;
 }
 
 code {
   font-family: 'JetBrains Mono', source-code-pro, Menlo, Monaco, Consolas,
     'Courier New', monospace;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+}
+
+.progress-elected::-webkit-progress-value {
+  background: #34c771;
+}
+.progress-elected::-moz-progress-bar {
+  background: #34c771;
+}
+
+.progress-not-elected::-webkit-progress-value {
+  background: #bb3e03;
+}
+.progress-not-elected::-moz-progress-bar {
+  background: #bb3e03;
+}
+
+.status {
+  padding: 2px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 390px) {
+  html {
+    font-size: 85%;
+  }
 }
