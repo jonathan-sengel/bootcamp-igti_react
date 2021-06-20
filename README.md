@@ -1,58 +1,38 @@
-# Covid-19 Dashboard
+# Bootcamp React - IGTI
 
-> ### Project status: working, but still in the process of improvement :heavy_check_mark: / :warning:
+> ### Here will be listed the challenges performed during te React developer bootcamp :bulb:
 
-## Deployed on Vercel: :dash:
+## Status
 
-> https://covid19-dashboard-dun.vercel.app/
+Module I - Advanced Javascript -> Concluded :100:
+Module II - React I -> Concluded :100:
+Module III - React II -> In Progress... :clock230:
+Module IV - React III -> In Queue :zzz:
 
-## Here I bring you the first challenge held at the IGTI Bootcamp React :+1:
+## Check out the challenges that have been completed so far:
 
-> This application was proposed in module 1 of the bootcamp in order to put into practice advanced Javascript knowledge that was acquired during the last week :clock530:; in addition, some js libraries were used for training. :arrow_upper_right:
+#### Module I - Covid-19 Dashboard
 
-<img src="https://github.com/jonathan-sengel/bootcamp-igti_react/blob/master/module1-Covid19-Dashboard/media/print1.jpg" width=800 alt="home page image">
-<img src="https://github.com/jonathan-sengel/bootcamp-igti_react/blob/master/module1-Covid19-Dashboard/media/print2.jpg" width=800 alt="country page image">
+In this module, the challenge was carried out using Javascript with advanced methodologies, data treatment (arrays and objects), consumption of Covid19 APIs and use of libraries
 
-## Main Features :point_down:
+> App deployed on Vercel: https://covid19-dashboard-dun.vercel.app/
+> Repository: https://github.com/jonathan-sengel/bootcamp-igti_react/tree/master/module1-Covid19-Dashboard
 
-### :one: Home Page
+<img src="https://i.imgur.com/xMXyDRy.jpeg" width=800 alt="country page image">
 
-#### Dashboard:
+---
 
-- Global Confirmed Cases
-- Global Deaths Cases
-- Global Recovered Cases
-- Distribution of cases in a pie chart
-- Graph of the 10 countries with the most cases of death
+#### Module II - React Elections
 
-### :two: Country Page
+In the second module we had the introduction to React with the use of useState and useEffect Hooks to manage the application. We learned how to create components and also how to work with their props. Basic use of a backEnd using json-server to perform API requests;
 
-- Time interval filter
-  - By country
-  - By type of case
-- Linear graphic with number of daily cases
-- Linear graph with average of cases in the selected period
-- KPIs with total confirmed, deaths and recovered for the selected country from the beginning
+> Front-end deployed on Netlify: https://react-elections-jsengel.netlify.app/
+> Back-end executing from Glitch: https://react-elections-jonathan-sengel.glitch.me/
+> Repository: https://github.com/jonathan-sengel/bootcamp-igti_react/tree/master/module2-React-Elections
 
-## What was used :interrobang:
+<img src="https://i.imgur.com/cf0koho.jpeg" width=800 alt="home page image">
 
-- HTML
-- CSS (from Sass)
-- Javascript
+## More Information :point_down:
 
-## Librarys used
-
-- Chart.js
-  > Used to generate graphics [+Info](https://www.chartjs.org/)
-- Lodash
-  > For easier data manipulation; [+Info](https://lodash.com/)
-- Axios
-  > Is a simple promise based HTTP client [+Info](https://github.com/axios/axios)
-- Date-fns
-  > Helped with formatting dates; [+Info](https://date-fns.org/)
-
-## API consumed to carry out the project :key:
-
-> Link: https://covid19api.com/
-
-> Documentation: https://documenter.getpostman.com/view/10808728/SzS8rjbc
+- For detailed information on each challenge, access the respective repository.
+- If you find any bugs, please le me know!!

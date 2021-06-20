@@ -9,7 +9,10 @@ export default function ElectionCandidateCard({ children, selectedCity }) {
 
   let status = elected ? 'Eleito' : 'Não Eleito';
   let progressClass = elected ? 'progress-elected' : 'progress-not-elected';
-  let color = elected ? '$green600' : '$red600';
+  let bgColorClass = elected ? 'bg-green600' : 'bg-red600';
+  let txtcolorClass = elected ? 'txt-green600' : 'txt-red600';
+
+  console.log(`status text-xs text-white uppercase ${bgColorClass}`);
 
   return (
     <li className="flex items-center w-full p-2 gap-2">
@@ -25,13 +28,15 @@ export default function ElectionCandidateCard({ children, selectedCity }) {
             <div>
               <strong>{candidateName}</strong>
             </div>
-            <span className={`status text-xs text-white uppercase bg-${color}`}>
+            <span
+              className={`status text-xs text-white uppercase ${bgColorClass}`}
+            >
               {status}
             </span>
           </div>
           <div className="text-right">
             <div>
-              <strong className={`text-${color}`}>
+              <strong className={txtcolorClass}>
                 {helperFormatPercentage(percentage)}
               </strong>
             </div>

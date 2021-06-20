@@ -53,3 +53,16 @@ body {
     font-size: 85%;
   }
 }
+
+.bg-green600 {
+  background-color: #34c771;
+}
+.bg-red600 {
+  background-color: #bb3e03;
+}
+.txt-green600 {
+  color: #34c771;
+}
+.txt-red600 {
+  color: #bb3e03;
+}
