@@ -27,19 +27,24 @@
 
 1. Download zip or clone repository
 2. Open the prompt and run the following commands
-   ```properties
-   cd module2-React-Elections
-   yarn install
+   ```console
+   > cd module2-React-Elections
+   > yarn install
    ```
 3. At the end of the installation of the premises:
-   ```properties
-   cd backend
-   yarn install
+   ```console
+   > cd backend
+   > yarn install
    ```
 4. Finally perform the following in the same order.
-   `properties yarn server `
-   \*\* in other command window
-   `properties cd module2-React-Elections yarn dev `
+   ```console 
+   > yarn server 
+   ```
+   "in other command window"
+   ```console
+   > cd module2-React-Elections
+   > yarn dev
+   ```
    Let's enjoy!!!!
 
 ## Content :point_down:
