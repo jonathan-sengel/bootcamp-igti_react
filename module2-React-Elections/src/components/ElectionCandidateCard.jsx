@@ -12,8 +12,6 @@ export default function ElectionCandidateCard({ children, selectedCity }) {
   let bgColorClass = elected ? 'bg-green600' : 'bg-red600';
   let txtcolorClass = elected ? 'txt-green600' : 'txt-red600';
 
-  console.log(`status text-xs text-white uppercase ${bgColorClass}`);
-
   return (
     <li className="flex items-center w-full p-2 gap-2">
       <img
