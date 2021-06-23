@@ -23,6 +23,25 @@
 <img src="https://i.imgur.com/XR0KWk1.jpeg" width=800 alt="home page image">
 <img src="https://i.imgur.com/rvUXDwM.jpeg" alt="country page image" align="center">
 
+## How to run? :boom:
+
+1. Download zip or clone repository
+2. Open the prompt and run the following commands
+   ```properties
+   cd module2-React-Elections
+   yarn install
+   ```
+3. At the end of the installation of the premises:
+   ```properties
+   cd backend
+   yarn install
+   ```
+4. Finally perform the following in the same order.
+   `properties yarn server `
+   \*\* in other command window
+   `properties cd module2-React-Elections yarn dev `
+   Let's enjoy!!!!
+
 ## Content :point_down:
 
 Basicamente o aplicativo lhe retorna o resultado das eleições em um municipio selecionado atraves do combobox. Estes dados são consultados via API em um backend rodando com o json-server.
